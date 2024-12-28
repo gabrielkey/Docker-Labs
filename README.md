@@ -4,7 +4,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/gabrielkey/Docker-Labs?label=Contribui%C3%A7%C3%B5es)
 ![GitHub Repo stars](https://img.shields.io/github/stars/gabrielkey/Docker-labs?style=flat&label=Estrelas)
 
-Docker Labs é um repositório dedicado à criação de laboratórios práticos utilizando o Docker. O objetivo é aprimorar minhas habilidades com [docker](https://www.docker.com), explorando e experimentando por meio de laboratórios simples, enquanto continuo aprendendo sobre essa poderosa ferramenta. Este é um projeto de código aberto, e estou convidando você a contribuir e estudar junto comigo. Vamos aprender e evoluir juntos!
+Docker Labs é um repositório dedicado à criação de laboratórios práticos utilizando o Docker. O objetivo é aprimorar minhas habilidades com [docker](https://www.docker.com), explorando e experimentando por meio de laboratórios simples, enquanto continuo aprendendo sobre essa poderosa ferramenta.
 
 # O que é Docker e Containers?
 ### Docker
