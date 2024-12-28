@@ -17,6 +17,9 @@ Um container é uma unidade de software isolada que empacota uma aplicação e t
 # Como instalar o Docker?
 Consulte a [documentação oficial](https://docs.docker.com/engine/install/ubuntu/) do Docker e procure a forma de instalar no seu sistema operacional. Para Windows, utilize o [Docker Desktop.](https://docs.docker.com/desktop/setup/install/windows-install/)
 
+# Laboratórios
+- **[LoadBalancer](https://github.com/gabrielkey/Docker-Labs/tree/main/labs/LoadBalancer)** - Laboratório focado em criar um balanceador de cargas com o Nginx.
+
 ### Contribuidores
 
 - [Gabrielkey](https://github.com/gabrielkey)
