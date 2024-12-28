@@ -32,6 +32,6 @@ docker compose up -d
 
 #### Observações
 
-1. Os arquivos de configuração foram simplificados, mantendo apenas o essencial para o funcionamento do Nginx. Para adicionar suporte ao PHP, recomenda-se editar o arquivo docker-compose.yml, incluir a imagem do PHP e configurar o Nginx para direcionar as requisições para o contêiner responsável pelo PHP. Caso prefira usar o Apache em vez do Nginx, basta modificar o docker-compose.yml e substituir o Nginx pela imagem do Apache nos nodes. Consulte a [documentação do Nginx.](https://nginx.org/en/docs/) para mais informações.
+1. Os arquivos de configuração foram simplificados, mantendo apenas o essencial para o funcionamento do Nginx. Para adicionar suporte ao PHP, recomenda-se editar o arquivo docker-compose.yml, incluir a imagem do PHP e configurar o Nginx para direcionar as requisições para o contêiner responsável pelo PHP. Caso prefira usar o Apache em vez do Nginx, basta modificar o `docker-compose.yml` e substituir o Nginx pela imagem do Apache nos nodes. Consulte a [documentação do Nginx.](https://nginx.org/en/docs/) para mais informações.
 
-2. Para simplificar o *README*, omiti diversas explicações, assumindo que você já tenha conhecimento sobre o que é o Nginx, sua configuração básica, e o funcionamento do Docker Compose.
+2. Para simplificar o **README**, omiti diversas explicações, assumindo que você já tenha conhecimento sobre o que é o Nginx, sua configuração básica, e o funcionamento do Docker Compose.
