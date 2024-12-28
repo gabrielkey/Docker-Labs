@@ -3,6 +3,7 @@ services:
   nginx:
     container_name: nginx-master
     image: nginx:alpine
+    restart: always
     ports:
       - "80:80"
     volumes:
@@ -13,6 +14,9 @@ services:
   node1:
     container_name: node1
     image: nginx:alpine
+    restart: always
+    depends_on:
+      - nginx
     ports:
       - "80"
     volumes:
@@ -25,6 +29,9 @@ services:
   node2:
     container_name: node2
     image: nginx:alpine
+    restart: always
+    depends_on:
+      - nginx
     ports:
       - "80"
     volumes:
@@ -37,6 +44,9 @@ services:
   node3:
     container_name: node3
     image: nginx:alpine
+    restart: always
+    depends_on:
+      - nginx
     ports:
       - "80"
     volumes:
@@ -45,6 +55,7 @@ services:
       - ./src/nodes.d/node.3/:/usr/share/nginx/html
     networks:
       - loadbalancer
-      
+
 networks:
   loadbalancer:
+      driver: bridge
